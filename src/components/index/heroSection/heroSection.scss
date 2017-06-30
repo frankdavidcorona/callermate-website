@@ -1,0 +1,59 @@
+.cm-btn-login {
+  background-color: #54CEEE !important;
+  border-radius: 100px !important;
+}
+
+.cm-btn-login-label {
+  height: 0.35%;
+  font-family: "Proxima Nova Bold";
+  font-size: 10px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  line-height: 14px !important;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+#cm-hero-headline {
+  font-family: "Proxima Nova";
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
+  color: #33404B;
+  text-align: center;
+}
+
+.cm-hero-description {
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #969da2;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.cm-customer-login-container {
+  padding-top: 5%;
+}
+
+.cm-customer-login {
+  padding: 21px 34px;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #54ceee;
+  border-color: #54ceee;
+  border-radius: 35px;
+}
+
+.cm-customer-login:hover {
+  text-decoration: none !important;
+  opacity: .8;
+  cursor: pointer;
+  color: #fff;
+}
