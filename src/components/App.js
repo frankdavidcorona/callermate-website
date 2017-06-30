@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
 import Index from './index/Index';
+import './app.scss';
 
 export default class App extends React.Component {
     render() {
