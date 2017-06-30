@@ -1,7 +1,7 @@
 import React from 'react';
 import './heroSection.scss';
 
-export default class Index extends React.Component {
+export default class heroSection extends React.Component {
     constructor(props) {
         super(props);
 

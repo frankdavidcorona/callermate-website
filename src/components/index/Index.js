@@ -3,6 +3,7 @@ import './Index.scss';
 import Footer from '../footer/Footer';
 import NavBar from '../navbar/NavBar';
 import HeroSection from '../index/heroSection/heroSection';
+import VideoSection from '../index/videoSection/videoSection';
 
 export default class Index extends React.Component {
     constructor(props) {
@@ -16,6 +17,7 @@ export default class Index extends React.Component {
             <div id="index-container">
                 <NavBar/>
                 <HeroSection/>
+                <VideoSection/>
                 <Footer/>
             </div>
         );

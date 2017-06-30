@@ -1,0 +1,25 @@
+.relevant-vide-container {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  left: 2.5%;
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(51, 64, 75, 0.1), 0 4px 30px 0 rgba(38, 136, 220, 0.1);
+  border-radius: 4px;
+}
+
+.relevant-vide-heading {
+  height: 0.92%;
+  opacity: 0.4;
+  font-family: "Proxima Nova";
+  font-size: 30px;
+  text-align: center;
+  line-height: 37px;
+  color: #33404B !important;
+}
+
+.relevant-video {
+  height: 100%;
+  width: 100%;
+}
