@@ -418,80 +418,9 @@ div.feature-text {
   top: 40%;
 }
 
-.use-case-headline {
-  height: 1.1%;
-  font-family: "Proxima Nova";
-  font-size: 36px;
-  font-weight: 500;
-  text-align: center;
-  line-height: 44px;
-  margin-top: 5%;
-}
-
-.use-case-description {
-  height: 0.5%;
-  font-family: "Proxima Nova";
-  font-size: 14px;
-  line-height: 20px;
-  color: #969DA2;
-}
-
-.nav-use-case-headline {
-  height: 0.35%;
-  font-family: "Proxima Nova Bold";
-  font-size: 10px;
-  font-weight: bold;
-  line-height: 14px;
-  letter-spacing: 1px;
-  color: #54CEEE;
-}
-
-.nav-use-case-headline-disabled {
-  height: 0.35%;
-  font-family: "Proxima Nova Bold";
-  font-size: 10px;
-  font-weight: bold;
-  line-height: 14px;
-  letter-spacing: 1px;
-  color: #969DA2;
-}
-
-.nav-use-case {
-  margin-top: 3%;
-  padding-left: 25% !important;
-  padding-right: 20% !important;
-}
-
-.image-use-case-description {
-  width: 100%;
-  box-shadow: 0 2px 4px 0 rgba(51, 64, 75, 0.1), 0 4px 30px 0 rgba(38, 136, 220, 0.1);
-}
-
-.description-use-case {
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 4px 0 rgba(51, 64, 75, 0.1), 0 4px 30px 0 rgba(38, 136, 220, 0.1);
-  border-radius: 4px;
-}
-
-.heading-use-case-description {
-  font-family: "Proxima Nova";
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 29px;
-  color: #33404B;
-}
-
-.paragraph-use-case-description {
-  font-family: "Proxima Nova";
-  font-size: 14px;
-  line-height: 20px;
-  color: #33404B;
-}
-
 /*Team*/
 .card-team {
   background-color: #FFFFFF;
-  /*box-shadow: 0 2px 4px 0 rgba(51, 64, 75, 0.1), 0 4px 30px 0 rgba(38, 136, 220, 0.1);*/
   border-radius: 4px;
   margin: 1%;
 }
@@ -503,14 +432,6 @@ div.feature-text {
   text-align: center;
   line-height: 22px;
   color: #33404B;
-}
-
-.bio-member {
-  font-family: "Proxima Nova";
-  font-size: 15px;
-  text-align: center;
-  line-height: 20px;
-  color: #33404b;
 }
 
 .cm-faq-header {

@@ -15,10 +15,8 @@ export default class videoSection extends React.Component {
                     <div className="row align-items-center relevant-vide-container">
                         <iframe src="https://player.vimeo.com/video/127176495"
                                 className="relevant-video"
-                                frameborder="0"
-                                webkitallowfullscreen
-                                mozallowfullscreen
-                                allowfullscreen>
+                                frameBorder="0"
+                                allowFullScreen>
                         </iframe>
                     </div>
                 </div>
