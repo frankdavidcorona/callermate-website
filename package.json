@@ -1,12 +1,15 @@
 {
-  "name": "base-react",
+  "name": "cm-website",
   "version": "1.0.0",
-  "description": "Base structure for React, Babel, ES6 and Webpack projects.",
+  "description": "Website for Caller Mate Company.",
   "main": "index.js",
   "author": "Frank David Corona Prendes",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "dev": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "start": "node app.js",
+    "prod": "npm run build && npm start"
   },
   "dependencies": {
     "html-webpack-plugin": "^2.28.0",
@@ -22,7 +25,12 @@
     "react-copy-to-clipboard": "^4.3.1",
     "react-intercom": "^1.0.13",
     "react-player": "^0.18.0",
-    "react-router-dom": "next"
+    "react-router-dom": "next",
+    "express": "^4.13.4",
+    "express-logging": "^1.1.1",
+    "express-session": "^1.15.2",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
