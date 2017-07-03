@@ -13,13 +13,13 @@ export default class Index extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
+        this.state = {path: this.props.location.pathname};
     }
 
     render() {
         return (
             <div id="index-container">
-                <NavBar/>
+                <NavBar path={this.state.path}/>
                 <HeroSection/>
                 <VideoSection/>
                 <FeatureSection/>

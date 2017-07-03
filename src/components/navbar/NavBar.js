@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.scss';
+import {Link} from 'react-router-dom';
 import Logo from '../../public/images/logo.jpg';
 
 
@@ -23,8 +24,16 @@ export default class NavBar extends React.Component {
                     <div className="col-xs-12 col-md-8">
                         <nav id="nav">
                             <ul>
-                                <li className="cm-labels-nav-active" href="#">home</li>
-                                <li className="cm-labels-nav-disabled" href="#">our experience</li>
+                                <Link to="/">
+                                    <li className={(this.props.path === '/') ? 'cm-labels-nav-active' : 'cm-labels-nav-disabled'}>
+                                        home
+                                    </li>
+                                </Link>
+                                <Link to="/experience">
+                                    <li className={(this.props.path === '/experience') ? 'cm-labels-nav-active' : 'cm-labels-nav-disabled'}>
+                                        our experience
+                                    </li>
+                                </Link>
                                 <li className="cm-labels-nav-disabled" href="#">pricing & results</li>
                                 <li className="cm-labels-nav-disabled" href="#">contact</li>
                             </ul>

@@ -21,11 +21,6 @@ module.exports = {
         app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
         app.use('/public', publicPath);
 
-        //Root
-        app.get('/', function (_, res) {
-            res.sendFile(indexPath)
-        });
-
         // Catch all redirect to index.html
         app.get('*', function (req, res) {
             res.sendFile(indexPath)
