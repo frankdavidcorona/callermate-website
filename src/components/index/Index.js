@@ -5,6 +5,8 @@ import NavBar from '../navbar/NavBar';
 import HeroSection from '../index/heroSection/heroSection';
 import VideoSection from '../index/videoSection/videoSection';
 import FeatureSection from '../index/featureSection/featureSection';
+import DividerSection from '../index/dividerSection/dividerSection';
+
 
 export default class Index extends React.Component {
     constructor(props) {
@@ -20,6 +22,7 @@ export default class Index extends React.Component {
                 <HeroSection/>
                 <VideoSection/>
                 <FeatureSection/>
+                <DividerSection/>
                 <Footer/>
             </div>
         );
